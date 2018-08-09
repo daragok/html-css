@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-items: center;
+    background-color: #9DD1F1;
+}
+
+.card {
+
+    background-color: #f18796;
+}
