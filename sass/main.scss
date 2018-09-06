@@ -1,4 +1,5 @@
 $stripe-properties: to bottom, 15%, blue, white;
+$rotation-angle: -180deg;
 
 @mixin stripes($direction, $width-percent, $stripe-color, $stripe-background: #FFF) {
   background: repeating-linear-gradient(
@@ -65,7 +66,7 @@ $stripe-properties: to bottom, 15%, blue, white;
   @include transition(0.4s);
 
   &:hover {
-    @include transform (rotatey(-180deg));
+    @include transform (rotatey($rotation-angle));
   }
 
   .front, .back {
@@ -92,7 +93,7 @@ $stripe-properties: to bottom, 15%, blue, white;
     z-index: 1;
     word-wrap: break-word;
     line-height: 1.6;
-    @include transform(rotatey(-180deg));
+    @include transform(rotatey($rotation-angle));
 
     .definition {
       width: 100%;
