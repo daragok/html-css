@@ -1,15 +1,16 @@
 main {
-    display: grid;
-    width: 1000px;
-    grid-template-columns: 300px 300px;
-    grid-template-areas: "left right";
-    background-color: rgba(90, 137, 66, 0.23);
-    justify-content: space-around;
+  display: grid;
+  width: 1000px;
+  grid-template-columns: 300px 300px;
+  grid-template-areas: "left right";
+  background-color: rgba(90, 137, 66, 0.23);
+  justify-content: space-around;
 }
 
 .left {
-    background-color: rgba(137, 56, 26, 0.23);
+  background-color: rgba(137, 56, 26, 0.23);
 }
+
 .right {
-    background-color: rgba(10, 16, 137, 0.23);
+  background-color: rgba(10, 16, 137, 0.23);
 }
