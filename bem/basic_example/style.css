@@ -1,0 +1,28 @@
+.post {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #ccc;
+  border: 1px solid #222;
+  border-radius: 5px;
+}
+.post--important {
+  background-color: yellow;
+}
+.post__author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: blue;
+}
+.post__date {
+  float: right;
+}
+.post__text {
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.mt-large {
+  margin-top: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
